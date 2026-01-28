@@ -1,0 +1,5 @@
+rootProject.name = 'peaceful-mobs-mod'
+
+include 'common'
+include 'forge'
+include 'fabric'

@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Common dependencies
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
